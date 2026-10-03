@@ -1,4 +1,4 @@
-# Codebase to Course (Enhanced Edition)
+# Codebase to Dojo
 
 > An enhanced version of [zarazhangrui/codebase-to-course](https://github.com/zarazhangrui/codebase-to-course).
 
@@ -86,7 +86,7 @@ The output is a **directory** containing pre-built `styles.css`, `main.js`, per-
 ### As a Claude Code Skill
 
 ```bash
-cp -r codebase-to-course ~/.claude/skills/
+cp -r codebase-to-dojo ~/.claude/skills/
 ```
 
 Then open any project in Claude Code and say:
@@ -130,7 +130,7 @@ Phase 4: Review and Open
 ## 📂 Project Structure
 
 ```
-codebase-to-course/
+codebase-to-dojo/
 ├── SKILL.md                              # Main skill instructions (Claude Code reads this)
 └── references/                           # Reference files (read on demand during skill run)
     ├── _base.html                        # HTML shell template

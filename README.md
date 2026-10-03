@@ -1,4 +1,4 @@
-# Codebase to Course（进阶版）
+# Codebase to Dojo（代码道场）
 
 > 基于 [zarazhangrui/codebase-to-course](https://github.com/zarazhangrui/codebase-to-course) 的增强版本。
 
@@ -86,7 +86,7 @@
 ### 作为 Claude Code Skill
 
 ```bash
-cp -r codebase-to-course ~/.claude/skills/
+cp -r codebase-to-dojo ~/.claude/skills/
 ```
 
 然后在任意项目中启动 Claude Code，说：
@@ -130,7 +130,7 @@ Phase 4: 审查与打开
 ## 📂 项目结构
 
 ```
-codebase-to-course/
+codebase-to-dojo/
 ├── SKILL.md                              # 主技能指令（Claude Code 读这个）
 └── references/                           # 参考文件（Skill 运行时按需读取）
     ├── _base.html                        # HTML 外壳模板
